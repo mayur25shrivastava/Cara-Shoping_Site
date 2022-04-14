@@ -1026,6 +1026,20 @@ footer .copyright{
     color: rgb(255, 255, 255);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media quiries start  */
 
 @media  (max-width:799px) {
@@ -1168,8 +1182,22 @@ footer .copyright{
     }
     #hero{
         padding: 0 20px;
+        flex-direction: column;
         background-position: 55%;
         height: 150vh;
+    }
+    #hero .left1{
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    #hero .right1{
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .left1 h4,h2,h1,p{
+        color: white;
+        padding: 5px;
+        
     }
     #feature{
         justify-content: space-between;
@@ -1264,7 +1292,6 @@ footer .copyright{
     }
 
 }
-
 
 
 
