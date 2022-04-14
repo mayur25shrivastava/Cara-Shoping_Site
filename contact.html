@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+
+
+     <!-- div hiding link  -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- font awsome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <section id="header">
+        <nav>
+            <a href="logo"><img src="img/logo.png" class="logo" alt=""></a>
+        </nav>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">shop</a></li>
+                <li><a  href="blog.html">blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">contact us</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-brands fa-shopify"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                <!-- <i class="far fa-times"></i>  -->
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-brands fa-shopify"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <div class="left1"> 
+            <h2>#Let's_Talk</h2>
+            <p>RLeave a Message, We love to hear from you!</p>
+        </div>
+        <!-- <div class="right1">
+            <img src="img/bground2.png" alt="">
+        </div> -->
+    </section>
+
+    <!-- contact details section  -->
+
+    <section id="contact-details" class="section-p1" >
+        <div class="details" data-aos="fade-up">
+            <span>Get in Touch</span>
+            <h2>Visit one of Our agency locations or contact us today</h2>
+            <h3>Head Offices</h3>
+            <div>
+                <li>
+                    <i class="fa-solid fa-address-card"></i>
+                    <p>50 A SaiNath Nagar Kolar Road Bhopal</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>mayur1234shrivastava@gmail.com</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91 9340845579</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Monday to Saturday from 9:00 to 5:00</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="map" data-aos="fade-left">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1833.8213149740097!2d77.41219585809684!3d23.183239796217986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4372a9a90adb%3A0x5503516872b10664!2sSainath%20Nagar%2C%20Mahabali%20Nagar%2C%20Kolar%20Rd%2C%20Bhopal%2C%20Madhya%20Pradesh%20462007!5e0!3m2!1sen!2sin!4v1649832940370!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- contact us form  -->
+
+    <section id="form-details" data-aos="fade-up">
+        <form action="">
+            <span>Leave a Message</span>
+            <h2 style="color: aliceblue;">We love to hear from you</h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="text" placeholder="Enter Your E-Mail">
+            <input type="text" placeholder="Subject"> 
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="img/people/1.png" alt="">
+                <p><span>John Cena</span>Senior Marketing Manager <br>Phone:+91 999 111 4440 <br>Email:Johncena@123.com </p>
+            </div>
+            <div>
+                <img src="img/people/2.png" alt="">
+                <p><span>Dewald Brewis</span>Senior Marketing Manager <br>Phone:+91 999 111 4440 <br>Email:Johncena@123.com </p>
+            </div>
+            <div>
+                <img src="img/people/3.png" alt="">
+                <p><span>Elise Perry</span>Senior Marketing Manager <br>Phone:+91 999 111 4440 <br>Email:Johncena@123.com </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- newsletter section  -->
+
+    <section id="newsletter" class="section-p1 section-m1" data-aos="fade-up">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Address">
+            <button onclick="window.location.href='login.html';" class="normal">Sign Up</button>
+        </div>
+    </section>
+
+
+    <!-- footer sction  -->
+    <footer class="section-p1" data-aos="fade-up">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 55 A Sainath Nagar Kolar, Bhopal , Madhya Pradesh</p>
+            <p><strong>Phone:</strong>934084557*</p>
+            <p><strong>Hours:</strong>10:00-18:00,Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Delivery Information</a>
+            <a href="blog.html">Privacy Policy</a>
+            <a href="about.html">Terms and Condition</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Acount</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install app</h4>
+            <p>From App store or Google play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>@ 2021,Tech - HTML CSS JS Template</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+
+    <!-- auto hide div ===> aos data-->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+
+            offset: 300,
+            duration: 700,
+        });
+        
+    </script>
+</body>
+</html>
